@@ -12,6 +12,8 @@ const typeDefs = gql`
     "The track's title"
     title: String!
     "The track's main Author"
+    authorId : String!
+    
     author: Author!
     "The track's illustration to display in track card or track page detail"
     thumbnail: String
